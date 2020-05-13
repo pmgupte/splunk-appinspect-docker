@@ -1,8 +1,8 @@
 FROM ubuntu:latest
 
 LABEL maintainer="Prabhas Gupte <prabhas.gupte@gmail.com>"
-LABEL "splunk-appinspect-version"="2.0.1"
-ENV AppInspectVersion=2.0.1
+LABEL "splunk-appinspect-version"="2.1.0"
+ENV AppInspectVersion=2.1.0
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y python-pip
 RUN pip install --upgrade pip setuptools
